@@ -1,12 +1,14 @@
 
 
+
+
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = "mongodb+srv://jeesar305:o0JN5CNj52RD6KNo@farmapp.zu1fkkz.mongodb.net/farmapp?retryWrites=true&w=majority"
 }
 
 model User {
